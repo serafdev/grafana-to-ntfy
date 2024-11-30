@@ -1,0 +1,19 @@
+{
+    "plugins": [
+        "git-tag"
+    ],
+    "owner": "serafdev",
+    "repo": "grafana-to-ntfy",
+    "name": "The Butler",
+    "email": "no-reply@mail.seraf.dev",
+    "noDefaultLabels": true,
+    "labels": [
+        {
+            "name": "patch",
+            "changelogTitle": "🚀 Enhancement",
+            "description": "Increment the patch version when merged until we are prod ready",
+            "releaseType": "patch",
+            "color": "#C5000B"
+        }
+    ]
+}
